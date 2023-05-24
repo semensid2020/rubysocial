@@ -8,8 +8,9 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
-import 'bootstrap'
-import '../stylesheets/application'
+// Сделал отлично от неё. https://stackoverflow.com/questions/64636601/why-does-my-bootstrap-in-rails-6-not-work
+import 'bootstrap/dist/js/bootstrap'
+import "bootstrap/dist/css/bootstrap";
 
 document.addEventListener("turbolinks:load", $('[data-toggle="tooltip"]').tooltip())
 
