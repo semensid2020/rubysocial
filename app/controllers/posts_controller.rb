@@ -3,6 +3,12 @@ class PostsController < ApplicationController
     @posts = Post.all()
   end
 
+  def topic
+    @topic = Topic.find_by(alias: params[:topic])
+    @posts = @topic.posts
+    render 'index'
+  end
+
   def show
     @post = Post.find(params[:id])
   end
