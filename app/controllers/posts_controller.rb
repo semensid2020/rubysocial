@@ -49,6 +49,7 @@ class PostsController < ApplicationController
 
   private
   def post_params
+    params[:post][:topic_id] = params[:post][:topic]
     params.require(:post).permit(:title, :body, :topic_id)
   end
 end
