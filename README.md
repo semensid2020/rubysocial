@@ -1,3 +1,3 @@
-base branch - develop.
+base branch - feat1.
 
-commit 1  (ветка отколота от develop)
+commit 2  (ветка отколота от feat1)
