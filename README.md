@@ -1,3 +1,3 @@
-base brach - develop.
+base branch - develop.
 
-commit 1
+commit 2  (ветка отколота от branch)
