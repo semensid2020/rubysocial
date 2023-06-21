@@ -1,3 +1,3 @@
 base branch - develop.
 
-commit 3  (ветка отколота от feature1)
+commit 4  (ветка отколота от feature2)
